@@ -1,6 +1,10 @@
 /* Import fonts from fonts.css file*/
 @import url(./fonts.css);
 
+/* css variables*/
+@import url(./partials/_variables.css);
+
+
 /* Start Navigation */
 .header_area .main-menu .navbar-brand{
 
@@ -11,3 +15,14 @@
 
     padding: 1rem 15rem 1rem 5rem;
 }
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family:var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.5rem;
+    color:var(--title-color);
+}
+
+
+
